@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.sub-navbar{
+    background-color: #eeeeee;
+  padding:6px 100px;
+}
+
+.banner-container{
+    height:500px;
+    width: 100%;
+    object-fit: cover;
+}
+.banner-container img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+.category-container{
+    display: flex;
+    padding:30px;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.category-container div{
+    font-size: 20px;
+    padding: 10px;
+
+}
+.category-container div:hover{
+    cursor: pointer;
+    background-color: #00599c;
+    color:white;
+}
+
+.pen-container{
+    padding:30px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.card-wrapper{
+    padding:10px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.card-wrapper:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px gray;
+}
+.card-image-container{
+    width: 100%;
+    height:auto;
+    object-fit: contain;
+    border:2px solid rgb(194, 194, 194);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-image-container img{
+    height:200px;
+    width: auto;
+    object-fit: cover;transform: rotate(45deg);
+}
+.view-product{
+    padding:10px 20px;
+    background-color: #363636;
+    color:white;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 18px;
+    
+}
+
+.pen-name{
+    padding:10px ;
+    background-color:#00599c;
+    color:white;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 30px;
+    font-size: 18px;
+    
+}
+
+ 
+ /* ---------footer------------- */
+ .reynold-footer {
+    background:#00599c;
+    color: #fff;
+    margin-top: 0;
+    padding: 35px 0 20px;
+}
+.container{
+    max-width: 1253px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.footer-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    border-bottom: 2px solid #ed1c24;
+    padding-bottom: 20px;
+   
+}
+
+.footer-subscribe{
+    display:flex;
+    
+}
+.footer-submain a{
+    text-decoration: none;
+    color:white;
+
+}
+.footer-submain li{
+list-style-type: none;
+line-height: 25px;
+
+}
+
+.field a{
+    color:white;
+}
+.field .field-text {
+    width:350px;
+    display:inline;
+    font-size:12px;
+ 
+}
+
+
+/* .caption{
+    display:inline;
+    background-color:red;
+    height: 52px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #fff;
+
+} */
+.footer-last p{
+text-align:right;
+font-size:16px;
+margin:0;
+line-height: 24px;
+
+
+
+}
+
+.footer-submain .logo img{
+   
+   padding-right: 0;
+}
+
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:20px;
+    padding:20px;
+}
+.subscribe-input{
+    border:1px solid white;
+    padding:10px;
+    width:300px;
+}
+.subscribe-button{
+    background-color: red;
+    color:white;
+    padding:10px 5px;
+    border:none;
+    cursor: pointer;
+}
+
+.material-symbols-outlined{
+    font-size: small;
+}
+.field{
+    margin-top:10px;
+    font-size:12px;
+}
